@@ -1,0 +1,9 @@
+
+language: java
+jdk:
+  - openjdk17
+
+before_install:
+  - sdk update
+  - sdk install java 17.0.9-open
+  - sdk use java 17.0.9-open
